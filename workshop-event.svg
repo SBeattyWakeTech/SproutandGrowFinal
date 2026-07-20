@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a calendar with a growing leaf</title>
+  <desc id="desc">A simple calendar page marked with a date, with a green leaf sprouting from the corner.</desc>
+  <rect width="400" height="400" rx="200" fill="#dfe9d3"/>
+  <rect x="120" y="130" width="160" height="150" rx="10" fill="#f8f9f3" stroke="#0b5d4d" stroke-width="6"/>
+  <rect x="120" y="130" width="160" height="36" rx="10" fill="#0b5d4d"/>
+  <line x1="155" y1="115" x2="155" y2="145" stroke="#0b5d4d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="245" y1="115" x2="245" y2="145" stroke="#0b5d4d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="200" cy="225" r="26" fill="#79a629"/>
+  <path d="M240 190 C260 170 285 168 300 150 C282 140 258 148 245 168 C235 176 234 185 240 190Z" fill="#4f8a2d"/>
+</svg>

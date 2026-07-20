@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of three potted organic plants</title>
+  <desc id="desc">Three simple terracotta pots holding green plants of different shapes, side by side.</desc>
+  <rect width="400" height="400" rx="200" fill="#dfe9d3"/>
+  <!-- left pot -->
+  <path d="M110 260 L130 320 L170 320 L190 260 Z" fill="#a9723f"/>
+  <path d="M150 260 C130 230 135 200 150 180 C165 200 170 230 150 260Z" fill="#4f8a2d"/>
+  <!-- center pot, taller -->
+  <path d="M175 275 L195 335 L235 335 L255 275 Z" fill="#8a5a30"/>
+  <path d="M215 275 C190 240 195 195 215 165 C235 195 240 240 215 275Z" fill="#79a629"/>
+  <path d="M215 210 C245 200 262 178 260 156 C226 154 210 182 215 210Z" fill="#4f8a2d"/>
+  <!-- right pot -->
+  <path d="M240 260 L258 320 L298 320 L316 260 Z" fill="#a9723f"/>
+  <circle cx="278" cy="225" r="35" fill="#5c9a2e"/>
+</svg>

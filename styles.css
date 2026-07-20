@@ -1,0 +1,342 @@
+/*
+    Sprout & Grow home page styles
+    WEB 140 Project Checkpoint 1
+*/
+
+/* Basic page setup */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #eef2e6;
+    color: #234638;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #0b6b57;
+}
+
+a:hover,
+a:focus {
+    color: #4f7f17;
+}
+
+/* Header and navigation */
+.site-header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0 0;
+    text-align: center;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.site-logo {
+    width: 65%;
+    max-width: 524px;
+    min-width: 250px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+    background-color: #0b5d4d;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.nav-list a {
+    display: block;
+    padding: 0.85rem 1.2rem;
+    color: #f5f7ef;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current-page {
+    background-color: #174f43;
+    border-bottom-color: #9ac53d;
+}
+
+/* Main content and hero */
+main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f8f9f3;
+    box-shadow: 0 0 18px rgba(24, 65, 51, 0.12);
+}
+
+.hero {
+    padding: clamp(2rem, 6vw, 5rem) 10%;
+    text-align: center;
+    background: linear-gradient(135deg, #dce8cf, #f2efcf);
+}
+
+.eyebrow {
+    margin: 0;
+    color: #4f7f17;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+    color: #0b5d4d;
+    line-height: 1.2;
+}
+
+h1 {
+    margin: 0.3rem 0 1rem;
+    font-size: clamp(2.2rem, 6vw, 4.8rem);
+}
+
+.hero-copy {
+    max-width: 720px;
+    margin: 0 auto 1.7rem;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.button-link {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    background-color: #6f9f22;
+    color: #17372d;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #547b18;
+    border-radius: 0.35rem;
+}
+
+.button-link:hover,
+.button-link:focus {
+    background-color: #86b732;
+    color: #17372d;
+}
+
+/* Welcome section with required floated image */
+.welcome-section,
+.highlights {
+    padding: 2.5rem 10%;
+}
+
+.welcome-section::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.feature-image {
+    float: right;
+    width: 38%;
+    max-width: 400px;
+    margin: 0 0 1rem 2rem;
+    padding: 0.5rem;
+    background-color: #e4ecd8;
+    border: 1px solid #b8c8a7;
+    border-radius: 50% 50% 45% 45%;
+}
+
+.welcome-section h2,
+.highlights h2 {
+    margin-top: 0;
+    font-size: clamp(1.6rem, 3vw, 2.35rem);
+}
+
+/* Feature cards */
+.highlights {
+    background-color: #dfe9d3;
+}
+
+.highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 1.25rem;
+}
+
+.highlight-grid article {
+    padding: 1.25rem;
+    background-color: #f8f9f3;
+    border-top: 5px solid #79a629;
+    border-radius: 0.35rem;
+}
+
+.highlight-grid h3 {
+    margin-top: 0;
+}
+
+/* Footer and social links */
+.site-footer {
+    width: 80%;
+    margin: 0 auto 2rem;
+    padding: 1.5rem 10%;
+    text-align: center;
+    background-color: #163f35;
+    color: #eef2e6;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.site-footer p {
+    margin: 0.25rem 0;
+}
+
+.site-footer a {
+    color: #d9ed9c;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+}
+
+.social-links a {
+    display: inline-flex;
+    padding: 0.2rem;
+    border-radius: 0.25rem;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+    background-color: #eef2e6;
+}
+
+/* Interior-page hero band (About, Products, Events, Register) */
+.page-hero {
+    padding: clamp(1.75rem, 5vw, 3.5rem) 10%;
+    text-align: center;
+    background: linear-gradient(135deg, #dce8cf, #f2efcf);
+}
+
+.page-hero h1 {
+    margin: 0.3rem 0 0;
+    font-size: clamp(1.9rem, 5vw, 3.2rem);
+}
+
+/* Generic content section used on interior pages, mirrors .welcome-section */
+.content-section {
+    padding: 2.5rem 10%;
+}
+
+.content-section::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.content-section h2 {
+    margin-top: 0;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+}
+
+/* Lists used on About, Products, and Events pages */
+.value-list,
+.care-list,
+.event-list {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-left: 1.4rem;
+    text-align: left;
+}
+
+.value-list li,
+.care-list li,
+.event-list li {
+    margin-bottom: 0.75rem;
+}
+
+/* Registration form */
+.register-form {
+    max-width: 500px;
+    margin: 1.5rem auto 0;
+    text-align: left;
+}
+
+.form-row {
+    margin-bottom: 1rem;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: bold;
+    color: #0b5d4d;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #b8c8a7;
+    border-radius: 0.3rem;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #f8f9f3;
+    color: #234638;
+}
+
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus {
+    outline: 2px solid #6f9f22;
+}
+
+/* Small-screen adjustments keep the layout fluid and readable */
+@media (max-width: 700px) {
+    .site-header,
+    main,
+    .site-footer {
+        width: 90%;
+    }
+
+    .site-logo {
+        width: 90%;
+        min-width: 0;
+    }
+
+    .nav-list {
+        gap: 0;
+    }
+
+    .nav-list li {
+        flex: 1 1 50%;
+    }
+
+    .feature-image {
+        float: none;
+        display: block;
+        width: 70%;
+        margin: 0 auto 1.5rem;
+    }
+}

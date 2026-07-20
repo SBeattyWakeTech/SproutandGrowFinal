@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of hands cupping a growing plant</title>
+  <desc id="desc">Two simple hands cradling a small green plant, symbolizing care and community.</desc>
+  <rect width="400" height="400" rx="200" fill="#dfe9d3"/>
+  <path d="M120 250 C120 210 150 190 200 190 C250 190 280 210 280 250 L280 270 C280 280 270 288 260 288 L140 288 C130 288 120 280 120 270 Z" fill="#79a629"/>
+  <path d="M90 260 C80 240 90 210 120 205 C118 230 122 250 140 265 Z" fill="#4f8a2d"/>
+  <path d="M310 260 C320 240 310 210 280 205 C282 230 278 250 260 265 Z" fill="#4f8a2d"/>
+  <path d="M200 195 C196 165 202 135 200 108" fill="none" stroke="#2e6e3d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M198 150 C165 140 148 112 152 88 C190 88 210 116 198 150Z" fill="#79a629"/>
+  <path d="M202 128 C235 120 252 96 250 74 C216 72 198 100 202 128Z" fill="#4f8a2d"/>
+</svg>
