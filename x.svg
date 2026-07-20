@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">X social media logo</title>
+  <circle cx="32" cy="32" r="30" fill="#152f28"/>
+  <path d="M16 15h10l9 12 10-12h5L38 31l12 18H40L30 36 19 49h-5l13-17L16 15Zm8 5 19 24h3L27 20h-3Z" fill="#ffffff"/>
+</svg>

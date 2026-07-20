@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Organic seedling illustration</title>
+  <desc id="desc">A green seedling growing from brown soil against a pale green background.</desc>
+  <rect width="400" height="400" rx="200" fill="#dfe9d3"/>
+  <ellipse cx="200" cy="300" rx="130" ry="45" fill="#79583c"/>
+  <path d="M200 305 C195 245 205 185 200 125" fill="none" stroke="#2e6e3d" stroke-width="14" stroke-linecap="round"/>
+  <path d="M198 205 C145 190 118 152 125 118 C173 117 202 149 198 205Z" fill="#79a629"/>
+  <path d="M204 174 C248 164 281 132 285 96 C239 91 205 126 204 174Z" fill="#4f8a2d"/>
+  <circle cx="200" cy="307" r="9" fill="#17372d"/>
+</svg>
